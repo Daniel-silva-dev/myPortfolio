@@ -171,7 +171,7 @@ ul {
 .icons a img {
   width: 35px;
   transition: transform 0.3s, filter 0.3s;
-  filter: invert(0); /* branco para dark mode */
+  filter: invert(1); /* branco para dark mode */
 }
 
 .icons a:hover img {
@@ -316,5 +316,5 @@ body.light-mode .footerContatos span {
 }
 
 body.light-mode .icons a img {
-  filter: invert(1); /* preto para light mode */
+  filter: invert(0); /* preto para light mode */
 }
